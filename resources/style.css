@@ -1,6 +1,6 @@
 html {
- font-size: 16px;
- font-family: helvetica;
+ font-size: 18px;
+ font-family: georgia;
 }
 header {
   display: flex;
@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
   margin: 0 24px 0 24px;
   height: 64px;
+  display:
 }
 
 .logo {
@@ -23,25 +24,133 @@ nav span {
   padding-left: 16px;
 }
 
+.section-divide {
+  background-color: #8b8989;
+  width: 100%;
+}
+
 .shadow {
-  background-color: red;
-  width: 100%
+  background-color: #eee9e9;
+  width: 100%;
 }
 
 .info-block {
   display: flex;
-  padding: 30px 24px;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 30px 36px;
 }
 
 .info-card {
   display: flex;
+  justify-content: center;
   width: 100%;
   flex-flow: row wrap;
+
 }
 
 .info-block-image {
   display: flex;
-  padding: 32px 72px;
+  width: 100%;
+}
+.image-information {
+  width: auto;
+  margin-bottom: 32px;
+  background-color:#8b8989;
+}
+.text-information {
+  text-align: center;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-image {
+  width: 60%;
+  height: auto;
+}
+
+.banner-text {
+display: flex;
+flex-flow: wrap column;
+justify-content: center;
+margin-left: 40px;
+
+}
+
+.image-information {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  border-right: 1px solid #eee9e9;
+}
+
+.image-information img {
+  width: 100%;
+  height: auto;
+}
+
+.information-side {
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee9e9;
+  min-height: 168px;
+  width: auto;
+  padding-right: 40px;
+
+}
+
+
+.blog-image {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 16px;
+  box-sizing: border-box;
+}
+
+.blog-image img {
+  display: block;
+  height: auto;
+  width: 100%;
+
+}
+
+.blog-header {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: flex-start;
+  margin-right: 8px;
+}
+
+.section-divide h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+#button {
+  background-color: #8b8989;
+  width: 100%;
+  padding: 8px 0;
+  color: white;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+.video-block {
+  width: 60%;
+  margin-right: 32px;
 }
 
 footer {
