@@ -8,7 +8,6 @@ header {
   justify-content: space-between;
   margin: 0 24px 0 24px;
   height: 64px;
-  display:
 }
 
 .logo {
@@ -24,20 +23,27 @@ nav span {
   padding-left: 16px;
 }
 
+h2 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
 .section-divide {
-  background-color: #8b8989;
+  background-color: #856363;
   width: 100%;
+  color: #eee9e9;
 }
 
 .shadow {
   background-color: #eee9e9;
   width: 100%;
+  color: black;
 }
 
 .info-block {
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
+  width: auto;
   justify-content: flex-start;
   padding: 30px 36px;
 }
@@ -45,20 +51,35 @@ nav span {
 .info-card {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: auto;
   flex-flow: row wrap;
+  margin-bottom: 32px;
+  color: #eee9e9;
+  width: 100%;
+}
 
+.info-card p{
+  padding: 10px;
+}
+
+p {
+  font-size: .9rem;
+  font-family: helvetica;
 }
 
 .info-block-image {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
 }
-.image-information {
-  width: auto;
+
+.image-information-large {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
   margin-bottom: 32px;
-  background-color:#8b8989;
+  padding-right: 32px;
 }
+
 .text-information {
   text-align: center;
 }
@@ -86,7 +107,8 @@ margin-left: 40px;
   flex-direction: column;
   width: 60%;
   height: auto;
-  border-right: 1px solid #eee9e9;
+  background-color:#856363;
+  padding-bottom: 32px;
 }
 
 .image-information img {
@@ -95,25 +117,24 @@ margin-left: 40px;
 }
 
 .information-side {
+  width: 37%;
 }
 
 .blog {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #eee9e9;
+  border-left: 1px solid #eee9e9;
   min-height: 168px;
   width: auto;
-  padding-right: 40px;
 
 }
-
 
 .blog-image {
   display: block;
   max-width: 60%;
   height: auto;
   margin: 16px;
-  box-sizing: border-box;
 }
 
 .blog-image img {
@@ -136,12 +157,13 @@ margin-left: 40px;
 }
 
 
-#button {
-  background-color: #8b8989;
+button {
+  background-color: #856363;
   width: 100%;
   padding: 8px 0;
   color: white;
   text-align: center;
+  font-size:18px;
 }
 
 video {
@@ -150,10 +172,16 @@ video {
 }
 .video-block {
   width: 60%;
-  margin-right: 32px;
+  padding-right: 32px;
+}
+
+a {
+  color: #8c1717;
+  font-family: helvetica;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
