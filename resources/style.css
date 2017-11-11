@@ -306,6 +306,9 @@ footer {
   #desktop {
     display: none;
   }
+  #desktop-all {
+    display: none;
+  }
 
   .info {
     display: none;
@@ -314,9 +317,24 @@ footer {
 
 
 }
+/* Smaller-width screens/tablets ----------- */
+@media only screen  and (min-width : 670px) and (max-width : 1154px) {
+ #desktop {
+   display: none;
+ }
+ #mobile-nav {
+   display: none;
+ }
+ .mobile-banner {
+   display: none;
+ }
+ .mobile-section-third {
+   display: none;
+ }
+}
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 670px) {
+@media only screen  and (min-width : 1154px) {
   #mobile-nav {
     display: none;
   }
