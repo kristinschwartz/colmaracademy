@@ -28,6 +28,10 @@ h2 {
   padding-bottom: 20px;
 }
 
+h3 {
+  margin: 0;
+}
+
 .section-divide {
   background-color: #856363;
   width: 100%;
@@ -38,6 +42,10 @@ h2 {
   background-color: #eee9e9;
   width: 100%;
   color: black;
+}
+
+.banner-text h3 {
+  padding: 10px 0;
 }
 
 .info-block {
@@ -79,8 +87,13 @@ p {
   margin-bottom: 32px;
   padding-right: 32px;
 }
+.image-information-large img {
+  width: 100%;
+  height: auto;
+}
 
 .text-information {
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -99,7 +112,7 @@ display: flex;
 flex-flow: wrap column;
 justify-content: center;
 margin-left: 40px;
-width: 35%;
+width: 30%;
 
 }
 
@@ -160,11 +173,12 @@ width: 35%;
 
 button {
   background-color: #856363;
-  width: 100%;
-  padding: 8px 0;
+  width: 80%;
+  padding: 15px 0;
   color: white;
   text-align: center;
   font-size:18px;
+
 }
 
 video {
@@ -185,4 +199,139 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#mobile-nav {
+  display: flex;
+  height: 64px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mobile-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile-info-card {
+  background-color: #856363;
+  color:#eee9e9;
+  display: flex;
+  flex-flow: column;
+  padding: 16px;
+}
+
+.mobile-info-card img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile-card-text {
+  padding: 64px 16px;
+}
+
+.mobile-section-third {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color:#eee9e9;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.start-learning-button {
+  height: auto;
+  margin-top: 8px;
+  background-color:#856363;
+  padding: 16px;
+  color: #eee9e9;
+  text-align: left;
+}
+ #start-text {
+   font-size: 1.5rem;
+   font-family: helvetica;
+ }
+
+.mobile-video {
+  display: block;
+  background-color: #eee9e9;
+  padding: 32px 16px;
+  text-align: center;
+}
+.video-mobile {
+  width: 100%;
+  height:auto;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 150px) and (max-width : 670px) {
+
+  nav {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .banner-image {
+    display: none;
+  }
+  .banner-text {
+    width: 100%;
+    margin: 0;
+  }
+
+  .banner-text h1 h3 {
+    margin-right: 30px;
+  }
+
+  .info-block {
+    padding: 16px;
+  }
+
+  button {
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  #desktop {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
+
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 670px) {
+  #mobile-nav {
+    display: none;
+  }
+  .mobile-banner {
+    display: none;
+  }
+
+  .mobile-info-card {
+    display: none;
+  }
+
+  .mobile-section-third {
+    display: none;
+  }
+  .mobile-video {
+    display: none;
+  }
 }
